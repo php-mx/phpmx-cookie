@@ -1,6 +1,7 @@
 /.env
 /vendor
 /composer.lock
+/index.php
 
 #phpmx-core
 /storage/cache
