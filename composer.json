@@ -8,6 +8,7 @@
             "": "source/"
         },
         "files": [
+            "helper/script/env.php",
             "helper/script/path.php"
         ]
     }
