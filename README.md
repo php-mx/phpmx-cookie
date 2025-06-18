@@ -41,8 +41,8 @@ Cookie::get('#user_token'); // retorna '12345'
 A classe respeita as variáveis do ambiente:
 
 ```env
-COOKIE_LIFE = "+30 days" # Tempo padrão de vida dos cookies (strtotime-compatible)
-COOKIE_DOMAIN = "" # Domínio dos cookies (opcional)
+COOKIE_LIFE = "+30 days"     # Tempo padrão de vida dos cookies (strtotime-compatible)
+COOKIE_DOMAIN = ""           # Domínio dos cookies (opcional)
 ```
 
 ## Métodos
