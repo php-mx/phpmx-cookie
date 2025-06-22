@@ -3,7 +3,7 @@
 Controlador estático de cookies com suporte a criptografia, codificação e configurações dinâmicas.
 
 ```
-composer require phpmx/core
+composer require phpmx/cookie
 ```
 
 ## Utilização
@@ -83,3 +83,7 @@ echo Cookie::get('theme'); // dark
 // Remover
 Cookie::remove('theme');
 ```
+
+---
+
+[phpmx](https://github.com/php-mx) | [phpmx-core](https://github.com/php-mx/phpmx-core) | [phpmx-server](https://github.com/php-mx/phpmx-server) | [phpmx-datalayer](https://github.com/php-mx/phpmx-datalayer) | [phpmx-view](https://github.com/php-mx/phpmx-view)
