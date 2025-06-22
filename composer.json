@@ -8,7 +8,6 @@
             "email": "contatoadmx@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "": "source/"
@@ -19,6 +18,6 @@
         ]
     },
     "require": {
-        "phpmx/server": "dev-main"
+        "phpmx/server": "^1.0"
     }
 }
