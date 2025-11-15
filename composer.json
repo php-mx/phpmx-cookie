@@ -2,6 +2,7 @@
     "name": "phpmx/cookie",
     "description": "Controla cookies seguros para aplicações HTTP PHPMX",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "André Ricardo",
@@ -10,14 +11,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "": "source/"
+            "": "class/"
         },
         "files": [
-            "helper/script/env.php",
-            "helper/script/path.php"
+            "system/helper/script/path.php"
         ]
     },
     "require": {
-        "phpmx/server": "^1.0"
+        "phpmx/core": "dev-main"
     }
 }

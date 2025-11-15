@@ -1,8 +1,10 @@
 /.env
 /vendor
 /composer.lock
-/index.php
 
-#phpmx-core
-/storage/cache
-/storage/certificate
+# MX CORE
+
+/.env
+/vendor
+/library/cache
+/library/certificate
